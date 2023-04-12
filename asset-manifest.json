@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZZiR/static/css/main.ad597de1.css",
+    "main.js": "/ZZiR/static/js/main.7c1dacbd.js",
+    "index.html": "/ZZiR/index.html",
+    "main.ad597de1.css.map": "/ZZiR/static/css/main.ad597de1.css.map",
+    "main.7c1dacbd.js.map": "/ZZiR/static/js/main.7c1dacbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad597de1.css",
+    "static/js/main.7c1dacbd.js"
+  ]
+}
