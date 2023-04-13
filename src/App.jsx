@@ -1,10 +1,14 @@
 import Circles from './backgroundComponent/Circles'
 import Navbar from './headerComponent/Navbar'
+import HeroSection from './headingComponents/HeroSection'
 function App() {
-	return <>
+  return <>
+  <Navbar />
   <header>
-    <Navbar />
+    <div className="wrapper-bg">
     <Circles />
+    </div>
+    <HeroSection />
   </header>
   </>
 }
