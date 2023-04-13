@@ -1,0 +1,64 @@
+@use '../stylesVar/colors' as colors;
+
+.circle-yellow {
+	&--one {
+		position: absolute;
+		width: 632px;
+		height: 632px;
+		left: -321px;
+		top: -41px;
+		top: 101px;
+		background: colors.$yellow-circle;
+		z-index: -1000;
+	}
+	&--two {
+		position: absolute;
+		width: 647px;
+		height: 632px;
+		right: -368px;
+		top: 1209px;
+		background: colors.$yellow-circle;
+		transform: matrix(-1, 0, 0, 1, 0, 0);
+		z-index: -1000;
+	}
+}
+.circle-red {
+	&--one {
+		position: absolute;
+		width: 946px;
+		height: 946px;
+		right: -458px;
+		top: -309px;
+		background: colors.$red-circle;
+		z-index: -1000;
+	}
+	&--two {
+		position: absolute;
+		width: 969px;
+		height: 946px;
+		left: -225px;
+		top: 1352px;
+
+		background: colors.$red-circle;
+		transform: matrix(-1, 0, 0, 1, 0, 0);
+		z-index: -1000;
+	}
+	&--three {
+		position: absolute;
+		width: 1146px;
+		height: 856px;
+		left: -560px;
+		top: 2447px;
+		background: colors.$red-circle;
+		z-index: -1000;
+	}
+	&--four {
+		position: absolute;
+		width: 1146px;
+		height: 856px;
+		right: -615px;
+		top: 3004px;
+		background: colors.$red-circle;
+		z-index: -1000;
+	}
+}

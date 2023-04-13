@@ -1,0 +1,29 @@
+//*= COLORS =*//
+$primary-green: #00473e;
+$secondary-green: #00796A;
+$light-green: #475D5B;
+$primary-orange: #FAAE2B;
+$primary-white: #f2f7f5;
+$border-nav-color: rgba(0, 71, 62, 0.24);
+
+//*= TEXT COLOR =*//
+$primary-text-color: #00473e;
+$secondary-text-color: #00796A;
+$light-text-color: #475D5B;
+$text-button-color: #f2f7f5;
+
+
+//*= BUTTONS COLOR =*//
+$primary-button-color: #00473e;
+$secondary-button-color: #faae2b;
+
+
+//*= BACKGTOUND CIRCLES COLOR =*//
+$yellow-circle:  radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(250, 174, 43, 0.3) 0%,
+    rgba(250, 174, 43, 0) 100%,
+    rgba(250, 82, 70, 0) 100%
+);
+
+$red-circle: radial-gradient(50% 50% at 50% 50%, rgba(250, 82, 70, 0.3) 0%, rgba(250, 174, 43, 0) 100%);
