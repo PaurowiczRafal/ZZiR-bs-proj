@@ -8,7 +8,7 @@
 		left: -321px;
 		top: -41px;
 		top: 101px;
-		background: colors.$yellow-circle;
+		background-image: colors.$yellow-circle;
 		z-index: -1000;
 	}
 	&--two {
@@ -17,7 +17,7 @@
 		height: 632px;
 		right: -368px;
 		top: 1209px;
-		background: colors.$yellow-circle;
+		background-image: colors.$yellow-circle;
 		transform: matrix(-1, 0, 0, 1, 0, 0);
 		z-index: -1000;
 	}
@@ -26,10 +26,13 @@
 	&--one {
 		position: absolute;
 		width: 946px;
+		width: 946px;
 		height: 946px;
 		right: -458px;
-		top: -309px;
-		background: colors.$red-circle;
+		top: 114px;
+		background-image: colors.$red-circle;
+		overflow-clip-margin: content-box;
+		// background-image: url('../../public/Ellipse.png');
 		z-index: -1000;
 	}
 	&--two {
@@ -39,7 +42,7 @@
 		left: -225px;
 		top: 1352px;
 
-		background: colors.$red-circle;
+		background-image: colors.$red-circle;
 		transform: matrix(-1, 0, 0, 1, 0, 0);
 		z-index: -1000;
 	}
@@ -49,7 +52,7 @@
 		height: 856px;
 		left: -560px;
 		top: 2447px;
-		background: colors.$red-circle;
+		background-image: colors.$red-circle;
 		z-index: -1000;
 	}
 	&--four {
@@ -58,7 +61,7 @@
 		height: 856px;
 		right: -615px;
 		top: 3004px;
-		background: colors.$red-circle;
+		background-image: colors.$red-circle;
 		z-index: -1000;
 	}
 }
