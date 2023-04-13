@@ -3,7 +3,7 @@
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1440px;
 }
 .navbar {
 	position: fixed;
@@ -12,7 +12,7 @@
     background-color: colors.$primary-white;
 	z-index: 10;
     a{
-        padding: 1em;
+        // padding: 1em;
         font-size: 2.4rem;
         text-decoration: none;
         color: colors.$primary-text-color;
@@ -27,7 +27,8 @@
 	}
     &__logo{
         font-weight: 700;
-        line-height: 2.9rem;
+        // line-height: 2.9rem; //! FIGMA
+        line-height: -0.1rem;
     }
     &__list{
         position: static;
@@ -38,21 +39,23 @@
         opacity: 1;
         background: none;
         overflow: hidden;
+        gap: 7.2rem;
     }
     &__item{
         display: inline-block;
         list-style: none;
         font-weight: 600;
-        line-height: 2.9rem;
+        // line-height: 2.9rem; //! FIGMA
+        line-height: -0.095rem; 
     }
     &__contact{
         padding: 1.2rem 2.4rem;
         background: colors.$primary-button-color;
         border-radius: .8rem;
         border: none;
-
         a{
             font-size: 2rem;
+            font-style: normal;
             font-weight: 600;
             line-height: 2.4rem;
             color: colors.$text-button-color;
