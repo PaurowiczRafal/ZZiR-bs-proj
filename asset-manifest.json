@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ZZiR/static/css/main.d7de1d84.css",
-    "main.js": "/ZZiR/static/js/main.19382177.js",
+    "main.css": "/ZZiR/static/css/main.53625dbe.css",
+    "main.js": "/ZZiR/static/js/main.43478fe5.js",
     "index.html": "/ZZiR/index.html",
-    "main.d7de1d84.css.map": "/ZZiR/static/css/main.d7de1d84.css.map",
-    "main.19382177.js.map": "/ZZiR/static/js/main.19382177.js.map"
+    "main.53625dbe.css.map": "/ZZiR/static/css/main.53625dbe.css.map",
+    "main.43478fe5.js.map": "/ZZiR/static/js/main.43478fe5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7de1d84.css",
-    "static/js/main.19382177.js"
+    "static/css/main.53625dbe.css",
+    "static/js/main.43478fe5.js"
   ]
 }
