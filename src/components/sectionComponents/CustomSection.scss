@@ -1,0 +1,36 @@
+@use '../stylesVar/colors' as colors;
+
+// .custom-section {
+// 	position: relative;
+// 	padding: 6.4rem 12em;
+// 	width: 100%;
+// 	background-color: colors.$primary-white;
+// 	height: 100%;
+//     margin: 0;
+//     --bs-gutter-x: 0;
+// 	&--first {
+// 		top: 7.2rem;
+// 	}
+// }
+
+.custom-section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// padding: 6.4rem 12em;
+	// height: 300vh;
+	width: 100%;
+	background-color: #f2f7f5;
+	&--first {
+		top: 7.2rem;
+	}
+}
+
+.section__container{
+		height: 100%;
+		margin: 0;
+		padding: 6.4rem 12rem;
+		max-width: 1440px;
+		--bs-gutter-x: 0;
+}

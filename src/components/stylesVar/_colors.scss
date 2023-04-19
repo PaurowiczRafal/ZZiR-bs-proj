@@ -4,21 +4,27 @@ $secondary-green: #00796A;
 $light-green: #475D5B;
 $primary-orange: #FAAE2B;
 $primary-white: #f2f7f5;
+$card-border: #00332c;
+$pure-white: #ffffff;
 
 $nav-blur-bg: rgba(242, 247, 245, .6);
 $border-nav-color: rgba(0, 71, 62, 0.24);
 
 //*= TEXT COLOR =*//
-$primary-text-color: #00473e;
-$secondary-text-color: #00796A;
+$primary-text-color: #00332C;
+$secondary-text-color: #006155;
 $light-text-color: #475D5B;
 $text-button-color: #f2f7f5;
 
 
 //*= BUTTONS COLOR =*//
 $primary-button-color: #00473e;
-$secondary-button-color: #faae2b;
-
+$primary-button-hover: #006155;
+$primary-button-pressed: #003D36;
+$secondary-button-color: rgba(0, 71, 62, 0.07);
+$secondary-button-hover: #00473E1F;
+$secondary-button-pressed: #00473E17;
+$secondary-button-outline: $primary-green;
 
 //*= BACKGTOUND CIRCLES COLOR =*//
 $yellow-circle:  radial-gradient(

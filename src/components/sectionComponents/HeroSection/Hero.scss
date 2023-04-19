@@ -1,0 +1,35 @@
+@use '../../stylesVar/colors' as colors;
+
+
+.tst{
+	// --bs-gutter-x: 0;
+    background-color: #ff9b89;
+    border: 1px solid black;
+    &--ttt{
+        margin-top: 64px;
+    }
+}
+.mt-64{
+    margin-top: 5.8rem;
+}
+.hero{
+    &__title{
+        font-size: 3.6rem;
+        font-weight: 600;
+        line-height: 178%;
+        font-family: 'Inter', sans-serif;
+        color: colors.$primary-text-color;
+        &--decoration{
+        color: colors.$secondary-text-color;
+        }
+    }
+    &__text{
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 150%;
+        font-family: 'Inter', sans-serif;
+
+        color: colors.$light-text-color;
+    }
+}
+

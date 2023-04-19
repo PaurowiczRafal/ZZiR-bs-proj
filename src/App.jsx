@@ -1,16 +1,20 @@
-import Circles from './backgroundComponent/Circles'
-import Navbar from './headerComponent/Navbar'
-import HeroSection from './headingComponents/HeroSection'
+import Circles from './components/backgroundComponent/Circles'
+import Navigation from './components/navbarComponent/Navigation'
+import CustomSection from './components/sectionComponents/CustomSection'
+import Hero from './components/sectionComponents/HeroSection/Hero'
+
+import './index.scss'
+
 function App() {
 	return (
 		<>
-			<div className='wrapper-bg'>
+			{/* <div className='wrapper-bg'>
 				<Circles />
-			</div>
-			<Navbar />
-			<header>
-				<HeroSection />
-			</header>
+			</div> */}
+			<Navigation />
+			<CustomSection>	
+        <Hero/>
+			</CustomSection>
 		</>
 	)
 }

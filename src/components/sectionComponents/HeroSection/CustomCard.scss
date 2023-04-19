@@ -1,0 +1,54 @@
+@use '../../stylesVar/colors' as colors;
+@mixin title {
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 150%;
+}
+@mixin text {
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 171%;
+}
+
+.c-card {
+	max-width: 56.8rem;
+	font-family: 'Inter', sans-serif;
+	border-radius: 2.4rem;
+	overflow: hidden;
+	cursor: pointer;
+	img {
+		max-height: 28rem;
+	}
+	&__body {
+		padding: 1.6rem 2.4rem;
+	}
+}
+.plants {
+	border: 1px solid colors.$card-border;
+	&__body {
+		color: colors.$primary-white;
+		background-color: colors.$primary-green;
+		&-title {
+			@include title;
+		}
+		&-text {
+			@include text;
+		}
+	}
+}
+
+.roofs {
+	margin-left: 24px;
+	&__body {
+        background-color: colors.$pure-white;
+		&-title {
+            color: colors.$primary-text-color;
+			@include title;
+		}
+		&-text {
+            color: colors.$light-text-color;
+			@include text;
+		}
+	}
+}

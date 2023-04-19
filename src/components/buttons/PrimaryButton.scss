@@ -1,0 +1,18 @@
+@use '../stylesVar/colors' as colors;
+
+.primary-button {
+	padding: 0.8rem 1.6rem;
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+	font-family: 'Inter', sans-serif;
+	border-radius: 8px;
+	background-color: colors.$primary-button-color;
+	&:hover {
+		background-color: colors.$primary-button-hover;
+	}
+	&:focus{
+		background-color: colors.$primary-button-pressed;
+	}
+}
