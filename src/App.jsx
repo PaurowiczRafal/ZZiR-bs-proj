@@ -4,6 +4,7 @@ import CustomSection from './components/sectionComponents/CustomSection'
 import Hero from './components/sectionComponents/heroSection/Hero'
 import TrustedBy from './components/sectionComponents/trustedBy/TrustedBy'
 import Stats from './components/sectionComponents/statsSection/Stats'
+import Testimonials from './components/sectionComponents/testimonialSection/Testimonials'
 import './index.scss'
 
 function App() {
@@ -13,16 +14,18 @@ function App() {
 				<Circles />
 			</div> */}
 			<Navigation />
-			<CustomSection>	
-        <Hero/>
+			<CustomSection>
+				<Hero />
 			</CustomSection>
-      <CustomSection>
-        <TrustedBy />
-      </CustomSection>
-      <CustomSection>
-        <Stats />
-      </CustomSection>
-      
+			<CustomSection>
+				<TrustedBy />
+			</CustomSection>
+			<CustomSection>
+				<Stats />
+			</CustomSection>
+			<CustomSection>
+				<Testimonials />
+			</CustomSection>
 		</>
 	)
 }
