@@ -1,4 +1,5 @@
 import './Hero.scss'
+import { useState } from 'react'
 
 import PrimaryButton from '../../buttons/PrimaryButton'
 import SecondaryButton from '../../buttons/SecondaryButton'
@@ -12,6 +13,23 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const Hero = () => {
+
+
+	let [isPlantsActive, setIsPlantsActive] = useState(true)
+	let [isRoofsActive, setIsRoofsActive] = useState(false)
+
+	const handleClickPlants = event => {
+		if (isPlantsActive != true) {
+			setIsPlantsActive(isPlantsActive = !isPlantsActive)
+			setIsRoofsActive(isRoofsActive = false)
+		}
+	}
+	const handleClickRoofs = event => {
+		if (isRoofsActive != true) {
+			setIsRoofsActive(isRoofsActive = !isRoofsActive)
+			setIsPlantsActive(isPlantsActive = false)
+		}
+	}
 	const cardInfo = [
 		{
 			id: 'plants',
@@ -70,13 +88,19 @@ const Hero = () => {
 				</Col>
 			</Row>
 			<Row className='mt-64'>
-				<Col
-					lg={6}>
-					<CustomCard data={cardInfo[0]} />
+				<Col lg={6}>
+					<CustomCard
+						data={cardInfo[0]}
+						status={isPlantsActive}
+						customClickEvent={handleClickPlants}
+					/>
 				</Col>
-				<Col
-					lg={6}>
-					<CustomCard data={cardInfo[1]} />
+				<Col lg={6}>
+					<CustomCard
+						data={cardInfo[1]}
+						status={isRoofsActive}
+						customClickEvent={handleClickRoofs}
+					/>
 				</Col>
 			</Row>
 		</Container>

@@ -22,33 +22,32 @@
 	}
 	&__body {
 		padding: 1.6rem 2.4rem;
+		background-color: colors.$pure-white;
+		&-title {
+			color: colors.$primary-text-color;
+			@include title;
+		}
+		&-text {
+			color: colors.$light-text-color;
+			@include text;
+		}
+	}
+	&:hover{
+	border: 1px solid colors.$card-border;
+	box-shadow: 0 0 3.2rem 1.2rem #00332C1F;
 	}
 }
-.plants {
-	border: 1px solid colors.$card-border;
+.active {
 	&__body {
-		color: colors.$primary-white;
 		background-color: colors.$primary-green;
 		&-title {
-			@include title;
+			color: colors.$primary-white;
 		}
 		&-text {
-			@include text;
+			color: colors.$primary-white;
 		}
 	}
 }
-
-.roofs {
-	margin-left: 24px;
-	&__body {
-        background-color: colors.$pure-white;
-		&-title {
-            color: colors.$primary-text-color;
-			@include title;
-		}
-		&-text {
-            color: colors.$light-text-color;
-			@include text;
-		}
-	}
+.roofs{
+	margin-left: 2.4rem;
 }

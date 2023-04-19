@@ -1,0 +1,21 @@
+@use '../../stylesVar/colors' as colors;
+.tst{
+    background-color: colors.$testing-bg;
+    border: colors.$testing-border;
+}
+.trusted-by{
+    margin-top: .6rem;
+    margin-bottom: 2.4rem;
+    text-align: center;
+
+    &__title{
+        font-family: 'Sora', sans-serif;
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 150%;
+        color: colors.$primary-text-color;
+    }
+    &__firms{
+
+    }
+}

@@ -26,18 +26,23 @@
 		font-weight: 700;
 		line-height: 120%;
 		color: colors.$primary-text-color;
+		&:hover {
+			color: colors.$secondary-text-color;
+		}
 	}
 	&__list {
 		justify-content: center;
 		width: 100%;
-		gap: 9.6rem;
+		gap: 7.1rem;
 		&--item {
-		position: relative;
+			position: relative;
 			padding: 0.8rem 1.6rem;
+			--bs-navbar-nav-link-padding-x: 1.6rem;
 			font-weight: 500;
 			font-size: 1.6rem;
 			line-height: 150%;
 			color: colors.$primary-text-color;
+			border: 1px solid transparent;
 			cursor: pointer;
 			&,
 			&::after,
@@ -47,7 +52,7 @@
 			&::after {
 				content: '';
 				position: absolute;
-				bottom: 0;
+				bottom: 0.8rem;
 				left: 0;
 				height: 1px;
 				width: 100%;
@@ -61,12 +66,15 @@
 				transform-origin: left;
 			}
 			&:hover {
+				font-weight: 600;
 				color: colors.$primary-text-color;
 			}
-			&:focus{
-				border-radius: .4rem;
+			&:focus {
+				border-radius: 0.4rem;
+				font-weight: 600;
 				color: colors.$primary-text-color;
-				background-color: #00473E12;
+				--bs-navbar-active-color: colors.$primary-text-color;
+				background-color: #00473e12;
 			}
 		}
 	}
