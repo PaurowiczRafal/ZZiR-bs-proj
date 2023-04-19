@@ -1,0 +1,17 @@
+@use '../../stylesVar/colors' as colors;
+
+.stat{
+    text-align: center;
+    &__value{
+        color: colors.$primary-text-color;
+        font-size: 3.6rem;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    &__text{
+        color: colors.$light-text-color;
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 150%;
+    }
+}

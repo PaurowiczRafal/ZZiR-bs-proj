@@ -13,22 +13,22 @@ const TrustedBy = () => {
             <Col lg={12}><h2 className='trusted-by trusted-by__title'>Pracowaliśmy z takimi firmami jak:</h2></Col>
         </Row>
         <Row>
-            <Col lg={2}>
+            <Col xxl={2} xl={3} lg={4} md={6}>
                 <Firm></Firm>
             </Col>
-            <Col lg={2}>
+            <Col xxl={2} xl={3} lg={4} md={6}>
                 <Firm></Firm>
             </Col>
-            <Col lg={2}>
+            <Col xxl={2} xl={3} lg={4} md={6}>
                 <Firm></Firm>
             </Col>
-            <Col lg={2}>
+            <Col xxl={2} xl={3} lg={4} md={6}>
                 <Firm></Firm>
             </Col>
-            <Col lg={2}>
+            <Col xxl={2} xl={3} lg={4} md={6}>
                 <Firm></Firm>
             </Col>
-            <Col lg={2}>
+            <Col xxl={2} xl={3} lg={4} md={6}>
                 <Firm></Firm>
             </Col>
         </Row>

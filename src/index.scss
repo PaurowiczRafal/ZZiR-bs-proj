@@ -42,7 +42,10 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
+.tst{
+	background-color: colors.$testing-bg;
+	border: colors.$testing-border;
+}
 
 // .container,
 // .container-fluid,
