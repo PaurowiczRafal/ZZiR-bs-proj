@@ -9,10 +9,15 @@
 	font-family: 'Inter', sans-serif;
 	border-radius: 8px;
 	background-color: colors.$primary-button-color;
+	--bs-btn-border-color: colors.$primary-button-color;
+	--bs-btn-hover-border-color: colors.$primary-button-color;
 	&:hover {
 		background-color: colors.$primary-button-hover;
 	}
 	&:focus{
 		background-color: colors.$primary-button-pressed;
+	}
+	&:active{
+		--bs-btn-active-bg: #003d36;
 	}
 }

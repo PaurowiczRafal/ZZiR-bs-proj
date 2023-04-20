@@ -22,8 +22,8 @@
 	// height: 300vh;
 	width: 100%;
 	background-color: #f2f7f5;
+	top: 7.2rem;
 	&--first {
-		top: 7.2rem;
 	}
 }
 
@@ -36,4 +36,12 @@
 }
 .mt-64{
     margin-top: 5.8rem;
+}
+
+.section__stroke{
+	height: 100%;
+		margin-top: -1.8rem;
+		padding: 0 12rem;
+		max-width: 1440px;
+		--bs-gutter-x: 0;
 }

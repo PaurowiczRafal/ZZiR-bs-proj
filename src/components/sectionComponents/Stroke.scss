@@ -1,0 +1,9 @@
+@use '../stylesVar/colors' as colors;
+
+.stroke{
+    height: 1px;
+    // margin-top: -18px;
+    background-color: colors.$stroke;
+    background-color: black;
+    border-radius: 2px;
+}

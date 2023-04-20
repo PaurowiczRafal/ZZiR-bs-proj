@@ -47,7 +47,7 @@ const Hero = () => {
 	return (
 		<Container className='section__container'>
 			<Row>
-				<Col lg={7}>
+				<Col xxl={7} xl={7}>
 					<h1 className='hero__title'>
 						Tworzymy <span className='hero__title--decoration'>piękne ogrody</span> i{' '}
 						<span className='hero__title--decoration'>zielone dachy</span> na każdej powierzchni &nbsp;
@@ -64,7 +64,7 @@ const Hero = () => {
 						</svg>
 					</h1>
 				</Col>
-				<Col lg={5}>
+				<Col xxl={5} xl={5}>
 					<Row>
 						<Col>
 							<p className='hero__text'>
@@ -75,12 +75,12 @@ const Hero = () => {
 					</Row>
 					<Row>
 						<Col
-							lg={4}
+							xxl={4} xl={5} md={6} sm={6}
 							className='mt-2'>
 							<PrimaryButton />
 						</Col>
 						<Col
-							lg={8}
+							xxl={8} xl={7} md={6} sm={6}
 							className='mt-2'>
 							<SecondaryButton />
 						</Col>
@@ -88,14 +88,14 @@ const Hero = () => {
 				</Col>
 			</Row>
 			<Row className='mt-64'>
-				<Col lg={6}>
+				<Col xxl={6} xl={6}>
 					<CustomCard
 						data={cardInfo[0]}
 						status={isPlantsActive}
 						customClickEvent={handleClickPlants}
 					/>
 				</Col>
-				<Col lg={6}>
+				<Col xxl={6} xl={6}>
 					<CustomCard
 						data={cardInfo[1]}
 						status={isRoofsActive}

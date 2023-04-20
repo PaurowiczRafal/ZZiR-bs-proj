@@ -13,6 +13,7 @@
 			font-size: 1.4rem;
 			font-weight: 400;
 			line-height: 171%;
+			margin-bottom: 0;
 		}
 	}
 	&__title {
@@ -27,8 +28,9 @@
         line-height: 150%;
 	}
     &__image{
-        width: 48.5rem;
+        width: 47.5rem;
         height: 13.8rem;
+		margin-left: .8rem;
         border-radius: 2.4rem;
         background-image: url('../../../img/roof2-md.jpeg');
         background-position: -10px -100px;

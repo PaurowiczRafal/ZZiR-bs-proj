@@ -1,7 +1,7 @@
 import './CustomSection.scss'
 
 const CustomSection = ({ children }) => {
-	return <div className='custom-section custom-section--first'>{children}</div>
+	return <div className='custom-section'>{children}</div>
 }
 
 export default CustomSection
