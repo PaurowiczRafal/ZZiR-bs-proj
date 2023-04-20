@@ -1,0 +1,29 @@
+@use '../../stylesVar/colors' as colors;
+
+.about__item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: .8rem;
+    margin: 0.8rem 0;
+    height: 12.75rem;
+    background-color: colors.$primary-white;
+    border-radius: .8rem;
+    &--bug{
+        background-image: url('../../../icons/bug-md.svg');
+        background-repeat: no-repeat;
+        background-position: 50px 20px;
+    }
+
+    &-title{
+    }
+    &-text{
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 120%;
+        align-self: stretch;
+    }
+}

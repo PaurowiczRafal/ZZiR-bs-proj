@@ -1,0 +1,10 @@
+@use '../../stylesVar/colors' as colors;
+
+.container__bg{
+    padding: 6.4rem 6rem;
+    background-color: colors.$about-bg;
+    border-radius: 1.6rem;
+}
+.about__content{
+    padding: 1rem;
+}

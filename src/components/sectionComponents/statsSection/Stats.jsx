@@ -34,9 +34,8 @@ const Stats = () => {
 	indents = []
 	for (let i = 0; i < statisticList.length; i++) {
 		indents.push(
-			<Col xxl={3}>
+			<Col xxl={3} key={statisticList[i].id} >
 				<Stat
-					id={statisticList[i].id} 
 					value={statisticList[i].value}
 					text={statisticList[i].text}></Stat>
 			</Col>

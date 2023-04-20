@@ -1,0 +1,19 @@
+@use '../../stylesVar/colors' as colors;
+
+.about {
+	&__heading {
+		&-title {
+            text-align: left;
+			font-family: 'Sora', sans-serif;
+			font-weight: 600;
+			font-size: 2.4rem;
+			line-height: 150%;
+		}
+		&-text {
+			font-weight: 400;
+			font-size: 1.4rem;
+			line-height: 171%;
+            color: colors.$light-green;
+		}
+	}
+}
