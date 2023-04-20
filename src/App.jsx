@@ -16,7 +16,7 @@ function App() {
 				<Circles />
 			</div> */}
 			<Navigation />
-			<CustomSection>
+			<CustomSection >
 				<Hero />
 			</CustomSection>
 			<CustomSection>

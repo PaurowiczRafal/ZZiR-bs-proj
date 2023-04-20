@@ -1,5 +1,8 @@
 @use '../../stylesVar/colors' as colors;
-
+@mixin bg-pos{
+    background-repeat: no-repeat;
+    background-position: 50px 20px;
+}
 .about__item{
     position: relative;
     display: flex;
@@ -14,11 +17,35 @@
     border-radius: .8rem;
     &--bug{
         background-image: url('../../../icons/bug-md.svg');
-        background-repeat: no-repeat;
-        background-position: 50px 20px;
+        @include bg-pos;
     }
-
-    &-title{
+    &--home{
+        background-image: url('../../../icons/home-md.svg');
+        @include bg-pos;
+    }
+    &--layout{
+        background-image: url('../../../icons/layout-md.svg');
+        @include bg-pos;
+    }
+    &--pen{
+        background-image: url('../../../icons/pen-md.svg');
+        @include bg-pos;
+    }
+    &--plant{
+        background-image: url('../../../icons/plant-md.svg');
+        @include bg-pos;
+    }
+    &--ruler{
+        background-image: url('../../../icons/ruler-md.svg');
+        @include bg-pos;
+    }
+    &--seedling{
+        background-image: url('../../../icons/seedling-md.svg');
+        @include bg-pos;
+    }
+    &--shape{
+        background-image: url('../../../icons/shape-md.svg');
+        @include bg-pos;
     }
     &-text{
         font-size: 1.6rem;

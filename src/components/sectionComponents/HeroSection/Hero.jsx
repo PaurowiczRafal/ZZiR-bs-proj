@@ -45,7 +45,7 @@ const Hero = () => {
 		},
 	]
 	return (
-		<Container className='section__container'>
+		<Container className='section__container' id='home'>
 			<Row>
 				<Col xxl={7} xl={7}>
 					<h1 className='hero__title'>
