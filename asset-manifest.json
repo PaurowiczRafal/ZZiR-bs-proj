@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ZZiR/static/css/main.11968910.css",
-    "main.js": "/ZZiR/static/js/main.89b77bcc.js",
+    "main.css": "/ZZiR/static/css/main.42e04bfa.css",
+    "main.js": "/ZZiR/static/js/main.102dae87.js",
     "static/media/flowers-md.jpeg": "/ZZiR/static/media/flowers-md.f4c75af5cc53905e87e5.jpeg",
     "static/media/roof2-md.jpeg": "/ZZiR/static/media/roof2-md.67e62420a30f02e617e5.jpeg",
     "static/media/roof-md.jpeg": "/ZZiR/static/media/roof-md.504cfafbae0083d21487.jpeg",
@@ -22,11 +22,11 @@
     "static/media/layout-sm.svg": "/ZZiR/static/media/layout-sm.bbb183daee42988bfdf1cdabcb7c55fa.svg",
     "static/media/shape-md.svg": "/ZZiR/static/media/shape-md.eaed1d90870c557a6d9b.svg",
     "static/media/shape-sm.svg": "/ZZiR/static/media/shape-sm.4ae56b6602861261399f8e1cb95b7946.svg",
-    "main.11968910.css.map": "/ZZiR/static/css/main.11968910.css.map",
-    "main.89b77bcc.js.map": "/ZZiR/static/js/main.89b77bcc.js.map"
+    "main.42e04bfa.css.map": "/ZZiR/static/css/main.42e04bfa.css.map",
+    "main.102dae87.js.map": "/ZZiR/static/js/main.102dae87.js.map"
   },
   "entrypoints": [
-    "static/css/main.11968910.css",
-    "static/js/main.89b77bcc.js"
+    "static/css/main.42e04bfa.css",
+    "static/js/main.102dae87.js"
   ]
 }
